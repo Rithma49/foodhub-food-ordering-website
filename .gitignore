@@ -1,0 +1,62 @@
+# ---------- Sensitive / Config ----------
+# Local config with DB credentials (uncomment if you make one)
+# includes/config.local.php
+.env
+.env.local
+*.local.php
+
+# ---------- Uploaded Images ----------
+# Keep default-food.jpg but ignore user uploads
+images/*
+!images/default-food.jpg
+!images/.gitkeep
+
+# ---------- OS Generated ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---------- IDE / Editors ----------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ---------- Logs / Temp ----------
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ---------- Node / Build (if used later) ----------
+node_modules/
+dist/
+build/
+.cache/
+npm-debug.log*
+yarn-error.log*
+
+# ---------- PHP Composer (if used later) ----------
+/vendor/
+composer.lock
+
+# ---------- Backups ----------
+*.sql.bak
+backup/
+backups/
+*.zip
+*.tar.gz
+
+# ---------- Test / Diagnostic ----------
+# Delete test.php before committing (or keep it and remove this line)
+# test.php
